@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/login',   [
+Route::get('/login',   [ 
    App\Http\ControLlers\LoginController::class,
    'index'
 ]);
