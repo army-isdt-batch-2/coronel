@@ -16,7 +16,7 @@
                     </div> 
                         <div class="col-1 text-end"> 
 
-                            <a href="/layout_timekeepingview" class="btn btn-dark pull-right">view</a>
+                            <a href="/timekeepingview" class="btn btn-dark pull-right">view</a>
                         
                         
                     </div> 

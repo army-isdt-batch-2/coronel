@@ -1,5 +1,5 @@
 @extends('layout.main')
-@section('title', 'payslip')
+@section('title', 'payslip ')
 @section('content')
     <div class="row align-items-center"> 
         <div class="col-12 mt-5">

@@ -33,6 +33,11 @@ public funCtion department()
        }
 
 
+       public function timekeepingview() {
+        return view('timekeepingview');   
+       }
+
+
     
 
 

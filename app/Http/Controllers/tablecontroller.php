@@ -20,11 +20,15 @@ class tableController extends Controller
     }
 
 
+    
+
 
     public funCtion payslipview()
     {
      return view('layout');   
     }
+    
+
     
     public funCtion employees()
     {

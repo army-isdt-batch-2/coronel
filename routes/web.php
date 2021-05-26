@@ -40,6 +40,11 @@ Route::get('/payslipview',   [
    'payslipview'
 ]);
 
+Route::get('/timekeepingview',   [
+   App\Http\ControLlers\LoginController::class,
+   'timekeepingview'
+]);
+
 Route::get('/payslip',   [
    App\Http\ControLlers\tableController::class,
    'payslip'
