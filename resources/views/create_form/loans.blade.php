@@ -1,0 +1,70 @@
+@extends('layout.main')
+@section('form')
+@section('content')
+    <div class="row align-items-center"> 
+        <div class="col-12 mt-5">
+            <div class="card">
+                <div class="card-body row p-5"> 
+
+                    <div class="col-10 mb-5">
+                        <h4>
+                           Create Loans
+                        </h4>
+                    </div> 
+
+            
+
+                    <div class="col-12">
+                        <form class="row g-3">
+                            <div class="col-md-4">
+                                <label for="inputEmail4" class="form-label">Employee ID</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div> 
+                            <div class="col-md-4">
+                                <label for="inputEmail4" class="form-label">Fullname</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div> 
+                            <div class="col-md-4">
+                                <label for="inputEmail4" class="form-label">Designation</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div> 
+                      <div class="col-md-4">    
+                        <div class="col-md-12">
+                            <label for="inputEmail4" class="form-label">Loan Type</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>      
+                        
+                          
+                        <div class="col-md-12">
+                            <label for="inputEmail4" class="form-label">Loan Amount</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div> 
+
+                        
+                          
+                            <div class="col-md-12">
+                                <label for="inputEmail4" class="form-label">Months Payable</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div> 
+
+                    </div> 
+                    <div class="col-md-8"> 
+                          
+                        <div class="col-md-12">
+                            <label for="inputEmail4" class="form-label">Address</label>
+                            <textarea rows="7" class="form-control"></textarea>
+                         </div>
+                  </div> 
+
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+              </form>
+            </div>
+
+
+                      
+                  
+
+                  
+@endsection
