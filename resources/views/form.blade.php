@@ -8,7 +8,7 @@
 
                     <div class="col-10">
                         <h4>
-                           Creat Deparment
+                           Create Deparment
                         </h4>
                     </div> 
 

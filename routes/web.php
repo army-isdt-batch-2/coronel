@@ -32,37 +32,37 @@ Route::get('/table',   [
  Route::get('/layout',   [
    App\Http\ControLlers\tableController::class,
    'layout'
-]);
+   ]);
 
 
 Route::get('/payslipview',   [
    App\Http\ControLlers\LoginController::class,
    'payslipview'
-]);
+   ]);
 
 Route::get('/timekeepingview',   [
    App\Http\ControLlers\LoginController::class,
    'timekeepingview'
-]);
+   ]);
 
 Route::get('/payslip',   [
    App\Http\ControLlers\tableController::class,
    'payslip'
-]);
+   ]);
 
 
 
 Route::get('/loans',   [
    App\Http\ControLlers\tableController::class,
    'loans'
-]);
+   ]);->('create_loans');
 
 
 
 Route::get('/deparment',   [
    App\Http\ControLlers\tableController::class,
    'deparment'
-]);
+   ]);->('create_department');
 
 
 Route::get('/position',   [
@@ -113,7 +113,7 @@ Route::get('/create_form/department',   [
 Route::get('/create_form/employees',   [
    App\Http\ControLlers\tableController::class,
    'create_form_employees'
-]);
+   ]);->('create_employees');
 
 
 Route::get('/create_form/leaves',   [
