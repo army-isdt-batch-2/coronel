@@ -13,6 +13,8 @@
                     </div>
                     <div class="col-2 text-end"> 
                         <a href="/create_form/department" class="btn btn-dark pull-right">Create</a>
+                    
+
                     </div> 
                     <div class="col-12">
                         <hr>    

@@ -12,7 +12,17 @@ class Department extends Model
     protected $table = 'Department';
 
     protected $fillable = [
-        'Department',
-        
+        'email',
+        'password',
+        'Address',
+        'Address 2',
+        'gender',
+        'birthday',
+        'contact',
+        'City',
+        'created_at',
+        'State',
+        'Zip',
+        'checkbox',
      ];
 }
